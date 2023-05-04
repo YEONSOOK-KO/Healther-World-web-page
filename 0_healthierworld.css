@@ -1,0 +1,50 @@
+
+* {
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainlogo {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    background-color: gray;
+    border: 1px dotted darkgray;
+    height: 100%;
+}
+
+nav {
+    width: 20%;
+    background-color: lightgray;
+    border: 1px dotted darkgray;
+}
+
+article {
+    display: flex;
+    width: 80%;
+}
+
+.menustyle {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: left;
+    padding: 5px 25px;
+    font-size: 25px;
+    align-self: hover;    
+}
+
+.eachdata {
+}

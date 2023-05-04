@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#mainlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.backgray {
+    background-color: #3d3c3c;
+    border: 1px dotted #3d3c3c;
+}
+
+H2 {
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin: 1px 0 20px 0;
+}
+
+.text_cen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.textwh {
+    color: white;
+}
+
+footer {
+    height: 50px;
+}

@@ -1,0 +1,14 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.eachdata {
+    border: 1px dotted black;
+}
